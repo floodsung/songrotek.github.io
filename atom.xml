@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Flood Sung</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://floodsung.com/"/>
+  <updated>2017-11-17T02:29:34.000Z</updated>
+  <id>http://floodsung.com/</id>
+  
+  <author>
+    <name>Flood Sung</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Learning to Compare Relation Network for Few Shot Learning</title>
+    <link href="http://floodsung.com/2017/11/17/learning_to_compare/"/>
+    <id>http://floodsung.com/2017/11/17/learning_to_compare/</id>
+    <published>2017-11-16T16:00:00.000Z</published>
+    <updated>2017-11-17T02:29:34.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;We present a conceptually simple, flexible, and general framework for few-shot learning, where a classifier must learn to recognise new classes given only few examples from each. Our method, called the Relation Network (RN), is trained end-to-end from scratch. During meta-learning, it learns to learn a deep distance metric to compare a small number of images within episodes, each of which is designed to simulate the few-shot setting.  Once trained, a RN is able to classify images of new classes by computing relation scores between query images and the few examples of each new class without further updating the network. Besides providing improved performance on few-shot learning, our framework is easily extended to zero-shot learning. Extensive experiments on four datasets demonstrate that our simple approach provides a unified and effective approach for both of these two tasks. &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
+    
+      <category term="Meta Learning" scheme="http://floodsung.com/tags/Meta-Learning/"/>
+    
+      <category term="Few Shot Learning" scheme="http://floodsung.com/tags/Few-Shot-Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Deep Stock Representation Learning From Candlestick Charts to Investment Decisions</title>
+    <link href="http://floodsung.com/2017/09/12/deep-stock-representation-learning/"/>
+    <id>http://floodsung.com/2017/09/12/deep-stock-representation-learning/</id>
+    <published>2017-09-11T16:00:00.000Z</published>
+    <updated>2017-11-17T02:29:09.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;We propose a novel investment decision strategy (IDS) based on deep learning. The performance of many IDSs is affected by stock similarity. Most existing stock similarity measurements have the problems: (a) The linear nature of many measurements cannot capture nonlinear stock dynamics; (b) The estimation of many similarity metrics (e.g. covariance) needs very long period historic data (e.g. 3K days) which cannot represent current market effectively; (c) They cannot capture translation-invariance. To solve these problems, we apply Convolutional AutoEncoder to learn a stock representation, based on which we propose a novel portfolio construction strategy by: (i) using the deeply learned representation and modularity optimisation to cluster stocks and identify diverse sectors, (ii) picking stocks within each cluster according to their Sharpe ratio (Sharpe 1994). Overall this strategy provides low-risk high-return portfolios. We use the Financial Times Stock Exchange 100 Index (FTSE 100) data for evaluation. Results show our portfolio outperforms FTSE 100 index and many well known funds in terms of total return in 2000 trading days.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
+    
+      <category term="Supervised Learning" scheme="http://floodsung.com/tags/Supervised-Learning/"/>
+    
+      <category term="Stock Prediction" scheme="http://floodsung.com/tags/Stock-Prediction/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Learning to Learn Meta-Critic Networks for Sample Efficient Learning</title>
+    <link href="http://floodsung.com/2017/06/29/learning-to-learn/"/>
+    <id>http://floodsung.com/2017/06/29/learning-to-learn/</id>
+    <published>2017-06-28T16:00:00.000Z</published>
+    <updated>2017-11-17T02:29:21.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;We propose a novel and flexible approach to meta-learning for learning-to-learn from only a few examples. Our framework is motivated by actor-critic reinforcement learning, but can be applied to both reinforcement and supervised learning. The key idea is to learn a meta-critic: an action-value function neural network that learns to criticise any actor trying to solve any specified task. For supervised learning, this corresponds to the novel idea of a trainable task-parametrised loss generator. This meta-critic approach provides a route to knowledge transfer that can flexibly deal with few-shot and semi-supervised conditions for both reinforcement and supervised learning. Promising results are shown on both reinforcement and supervised learning problems.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
+    
+      <category term="Meta Learning" scheme="http://floodsung.com/tags/Meta-Learning/"/>
+    
+      <category term="Few Shot Learning" scheme="http://floodsung.com/tags/Few-Shot-Learning/"/>
+    
+      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Actor-Critic Sequence Training for Image Captionin</title>
+    <link href="http://floodsung.com/2017/06/29/image_caption/"/>
+    <id>http://floodsung.com/2017/06/29/image_caption/</id>
+    <published>2017-06-28T16:00:00.000Z</published>
+    <updated>2017-11-17T02:29:28.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Generating natural language descriptions of images is an important ca- pability for a robot or other visual-intelligence driven AI agent that may need to communicate with human users about what it is seeing. Such image captioning methods are typically trained by maximising the likelihood of ground-truth anno- tated caption given the image. While simple and easy to implement, this approach does not directly maximise the language quality metrics we care about such as CIDEr. In this paper we investigate training image captioning methods based on actor-critic reinforcement learning in order to directly optimise non-differentiable quality metrics of interest. By formulating a per-token advantage and value com- putation strategy in this novel reinforcement learning based captioning model, we show that it is possible to achieve the state of the art performance on the widely used MSCOCO benchmark.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
+    
+      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
+    
+      <category term="Image Captioning" scheme="http://floodsung.com/tags/Image-Captioning/"/>
+    
+  </entry>
+  
+</feed>
