@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://floodsung.com/"/>
-  <updated>2017-11-17T02:29:34.000Z</updated>
+  <updated>2017-11-17T02:46:14.000Z</updated>
   <id>http://floodsung.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Learning to Compare Relation Network for Few Shot Learning</title>
+    <title>Learning to Compare: Relation Network for Few Shot Learning</title>
     <link href="http://floodsung.com/2017/11/17/learning_to_compare/"/>
     <id>http://floodsung.com/2017/11/17/learning_to_compare/</id>
     <published>2017-11-16T16:00:00.000Z</published>
-    <updated>2017-11-17T02:29:34.000Z</updated>
+    <updated>2017-11-17T02:46:14.000Z</updated>
     
     <summary type="html">
     
@@ -39,11 +39,11 @@
   </entry>
   
   <entry>
-    <title>Deep Stock Representation Learning From Candlestick Charts to Investment Decisions</title>
+    <title>Deep Stock Representation Learning: From Candlestick Charts to Investment Decisions</title>
     <link href="http://floodsung.com/2017/09/12/deep-stock-representation-learning/"/>
     <id>http://floodsung.com/2017/09/12/deep-stock-representation-learning/</id>
     <published>2017-09-11T16:00:00.000Z</published>
-    <updated>2017-11-17T02:29:09.000Z</updated>
+    <updated>2017-11-17T02:46:02.000Z</updated>
     
     <summary type="html">
     
@@ -83,11 +83,11 @@
   </entry>
   
   <entry>
-    <title>Learning to Learn Meta-Critic Networks for Sample Efficient Learning</title>
+    <title>Learning to Learn: Meta-Critic Networks for Sample Efficient Learning</title>
     <link href="http://floodsung.com/2017/06/29/learning-to-learn/"/>
     <id>http://floodsung.com/2017/06/29/learning-to-learn/</id>
     <published>2017-06-28T16:00:00.000Z</published>
-    <updated>2017-11-17T02:29:21.000Z</updated>
+    <updated>2017-11-17T02:46:23.000Z</updated>
     
     <summary type="html">
     
@@ -98,11 +98,11 @@
     
       <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
     
-      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
-    
       <category term="Meta Learning" scheme="http://floodsung.com/tags/Meta-Learning/"/>
     
       <category term="Few Shot Learning" scheme="http://floodsung.com/tags/Few-Shot-Learning/"/>
+    
+      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
     
   </entry>
   
