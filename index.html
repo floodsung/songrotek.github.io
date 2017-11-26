@@ -271,7 +271,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="http://floodsung.com/2017/11/17/learning_to_compare/" data-id="cjagzvs3500072v6mprjx4sxg" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://floodsung.com/2017/11/17/learning_to_compare/" data-id="cjagzyypc0005a46miaj581rd" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -410,7 +410,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="http://floodsung.com/2017/09/12/deep-stock-representation-learning/" data-id="cjagzvs2k00022v6mtu7exqwy" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://floodsung.com/2017/09/12/deep-stock-representation-learning/" data-id="cjagzyyos0001a46m6xieto49" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -488,145 +488,6 @@ ga('send', 'pageview');
 
 
 
-    <article id="post-learning-to-learn" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-            
-	
-		<a href="/2017/06/29/learning-to-learn/" itemprop="url">
-            <img src="http://www.floodsung.com/gallery/meta_critic.png" class="article-banner" />
-        </a>
-	
-
-
-
-        
-        
-            <header class="article-header">
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2017/06/29/learning-to-learn/">Learning to Learn: Meta-Critic Networks for Sample Efficient Learning</a>
-        </h1>
-    
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2017/06/29/learning-to-learn/">
-            <time datetime="2017-06-28T16:00:00.000Z" itemprop="datePublished">2017-06-29</time>
-        </a>
-    </div>
-
-
-                        
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/Arxiv/">Arxiv</a>, <a class="tag-link" href="/tags/Few-Shot-Learning/">Few Shot Learning</a>, <a class="tag-link" href="/tags/Meta-Learning/">Meta Learning</a>, <a class="tag-link" href="/tags/Reinforcement-Learning/">Reinforcement Learning</a>
-    </div>
-
-                    </div>
-                
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            <p><p><a href="https://arxiv.org/pdf/1706.09529.pdf" target="_blank" rel="noopener">[Arxiv]</a></p>
-<p>We propose a novel and flexible approach to meta-learning for learning-to-learn from only a few examples. Our framework is motivated by actor-critic reinforcement learning, but can be applied to both reinforcement and supervised learning. The key idea is to learn a meta-critic: an action-value function neural network that learns to criticise any actor trying to solve any specified task. For supervised learning, this corresponds to the novel idea of a trainable task-parametrised loss generator. This meta-critic approach provides a route to knowledge transfer that can flexibly deal with few-shot and semi-supervised conditions for both reinforcement and supervised learning. Promising results are shown on both reinforcement and supervised learning problems.</p></p>
-            <p class="article-more-link">
-                <a href="/2017/06/29/learning-to-learn/#more">Read More</a>
-            </p>
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://floodsung.com/2017/06/29/learning-to-learn/" data-id="cjagzvs2200002v6mdtfx3i52" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://floodsung.com/2017/06/29/learning-to-learn/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://floodsung.com/2017/06/29/learning-to-learn/">Comments</a>
-    
-
-        </footer>
-    </div>
-    
-</article>
-
-
-
     <article id="post-image_caption" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -689,7 +550,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="http://floodsung.com/2017/06/29/image_caption/" data-id="cjagzvs2y00052v6mqiwifz3x" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://floodsung.com/2017/06/29/image_caption/" data-id="cjagzyyp10003a46m3pwauypa" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -758,6 +619,145 @@ ga('send', 'pageview');
             
     
         <a href="http://floodsung.com/2017/06/29/image_caption/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://floodsung.com/2017/06/29/image_caption/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-learning-to-learn" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            
+	
+		<a href="/2017/06/29/learning-to-learn/" itemprop="url">
+            <img src="http://www.floodsung.com/gallery/meta_critic.png" class="article-banner" />
+        </a>
+	
+
+
+
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/06/29/learning-to-learn/">Learning to Learn: Meta-Critic Networks for Sample Efficient Learning</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/06/29/learning-to-learn/">
+            <time datetime="2017-06-28T16:00:00.000Z" itemprop="datePublished">2017-06-29</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Arxiv/">Arxiv</a>, <a class="tag-link" href="/tags/Few-Shot-Learning/">Few Shot Learning</a>, <a class="tag-link" href="/tags/Meta-Learning/">Meta Learning</a>, <a class="tag-link" href="/tags/Reinforcement-Learning/">Reinforcement Learning</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><p><a href="https://arxiv.org/pdf/1706.09529.pdf" target="_blank" rel="noopener">[Arxiv]</a></p>
+<p>We propose a novel and flexible approach to meta-learning for learning-to-learn from only a few examples. Our framework is motivated by actor-critic reinforcement learning, but can be applied to both reinforcement and supervised learning. The key idea is to learn a meta-critic: an action-value function neural network that learns to criticise any actor trying to solve any specified task. For supervised learning, this corresponds to the novel idea of a trainable task-parametrised loss generator. This meta-critic approach provides a route to knowledge transfer that can flexibly deal with few-shot and semi-supervised conditions for both reinforcement and supervised learning. Promising results are shown on both reinforcement and supervised learning problems.</p></p>
+            <p class="article-more-link">
+                <a href="/2017/06/29/learning-to-learn/#more">Read More</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://floodsung.com/2017/06/29/learning-to-learn/" data-id="cjagzyypg0006a46m6t5t5nbf" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="http://floodsung.com/2017/06/29/learning-to-learn/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://floodsung.com/2017/06/29/learning-to-learn/">Comments</a>
     
 
         </footer>
