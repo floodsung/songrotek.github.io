@@ -101,9 +101,9 @@
     </summary>
     
     
-      <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
-    
       <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
+    
+      <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
     
       <category term="Meta Learning" scheme="http://floodsung.com/tags/Meta-Learning/"/>
     
