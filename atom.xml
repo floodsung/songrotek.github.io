@@ -44,11 +44,12 @@
     <link href="http://floodsung.com/2017/09/12/deep-stock-representation-learning/"/>
     <id>http://floodsung.com/2017/09/12/deep-stock-representation-learning/</id>
     <published>2017-09-11T16:00:00.000Z</published>
-    <updated>2017-12-08T02:11:45.000Z</updated>
+    <updated>2018-02-03T03:09:53.309Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1709.03803.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[Arxiv]&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;2018 International Conference on Acoustics, Speech, and Signal Processing (ICASSP)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1709.03803.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[Arxiv]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;We propose a novel investment decision strategy (IDS) based on deep learning. The performance of many IDSs is affected by stock similarity. Most existing stock similarity measurements have the problems: (a) The linear nature of many measurements cannot capture nonlinear stock dynamics; (b) The estimation of many similarity metrics (e.g. covariance) needs very long period historic data (e.g. 3K days) which cannot represent current market effectively; (c) They cannot capture translation-invariance. To solve these problems, we apply Convolutional AutoEncoder to learn a stock representation, based on which we propose a novel portfolio construction strategy by: (i) using the deeply learned representation and modularity optimisation to cluster stocks and identify diverse sectors, (ii) picking stocks within each cluster according to their Sharpe ratio (Sharpe 1994). Overall this strategy provides low-risk high-return portfolios. We use the Financial Times Stock Exchange 100 Index (FTSE 100) data for evaluation. Results show our portfolio outperforms FTSE 100 index and many well known funds in terms of total return in 2000 trading days.&lt;/p&gt;
     
     </summary>
@@ -101,9 +102,9 @@
     </summary>
     
     
-      <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
-    
       <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
+    
+      <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
     
       <category term="Meta Learning" scheme="http://floodsung.com/tags/Meta-Learning/"/>
     
