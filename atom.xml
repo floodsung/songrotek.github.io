@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://floodsung.com/"/>
-  <updated>2017-12-08T02:12:03.000Z</updated>
+  <updated>2018-03-28T13:44:14.829Z</updated>
   <id>http://floodsung.com/</id>
   
   <author>
@@ -21,11 +21,12 @@
     <link href="http://floodsung.com/2017/11/17/learning_to_compare/"/>
     <id>http://floodsung.com/2017/11/17/learning_to_compare/</id>
     <published>2017-11-16T16:00:00.000Z</published>
-    <updated>2017-12-08T02:12:03.000Z</updated>
+    <updated>2018-03-28T13:44:14.829Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1711.06025.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[Arxiv]&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;CVPR 2018&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1711.06025.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[Arxiv]&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/songrotek/LearningToCompare_FSL&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[Code]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;We present a conceptually simple, flexible, and general framework for few-shot learning, where a classifier must learn to recognise new classes given only few examples from each. Our method, called the Relation Network (RN), is trained end-to-end from scratch. During meta-learning, it learns to learn a deep distance metric to compare a small number of images within episodes, each of which is designed to simulate the few-shot setting.  Once trained, a RN is able to classify images of new classes by computing relation scores between query images and the few examples of each new class without further updating the network. Besides providing improved performance on few-shot learning, our framework is easily extended to zero-shot learning. Extensive experiments on four datasets demonstrate that our simple approach provides a unified and effective approach for both of these two tasks. &lt;/p&gt;
     
     </summary>
@@ -44,7 +45,7 @@
     <link href="http://floodsung.com/2017/09/12/deep-stock-representation-learning/"/>
     <id>http://floodsung.com/2017/09/12/deep-stock-representation-learning/</id>
     <published>2017-09-11T16:00:00.000Z</published>
-    <updated>2018-02-03T03:09:53.309Z</updated>
+    <updated>2018-02-03T03:11:02.337Z</updated>
     
     <summary type="html">
     
