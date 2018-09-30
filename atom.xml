@@ -65,6 +65,31 @@
   </entry>
   
   <entry>
+    <title>Learning to Learn: Meta-Critic Networks for Sample Efficient Learning</title>
+    <link href="http://floodsung.com/2017/06/29/learning-to-learn/"/>
+    <id>http://floodsung.com/2017/06/29/learning-to-learn/</id>
+    <published>2017-06-28T16:00:00.000Z</published>
+    <updated>2017-12-08T02:12:12.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1706.09529.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[Arxiv]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We propose a novel and flexible approach to meta-learning for learning-to-learn from only a few examples. Our framework is motivated by actor-critic reinforcement learning, but can be applied to both reinforcement and supervised learning. The key idea is to learn a meta-critic: an action-value function neural network that learns to criticise any actor trying to solve any specified task. For supervised learning, this corresponds to the novel idea of a trainable task-parametrised loss generator. This meta-critic approach provides a route to knowledge transfer that can flexibly deal with few-shot and semi-supervised conditions for both reinforcement and supervised learning. Promising results are shown on both reinforcement and supervised learning problems.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
+    
+      <category term="Meta Learning" scheme="http://floodsung.com/tags/Meta-Learning/"/>
+    
+      <category term="Few Shot Learning" scheme="http://floodsung.com/tags/Few-Shot-Learning/"/>
+    
+      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Actor-Critic Sequence Training for Image Captioning</title>
     <link href="http://floodsung.com/2017/06/29/image_caption/"/>
     <id>http://floodsung.com/2017/06/29/image_caption/</id>
@@ -80,36 +105,11 @@
     </summary>
     
     
+      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
+    
       <category term="NIPS workshop" scheme="http://floodsung.com/tags/NIPS-workshop/"/>
     
-      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
-    
       <category term="Image Captioning" scheme="http://floodsung.com/tags/Image-Captioning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Learning to Learn: Meta-Critic Networks for Sample Efficient Learning</title>
-    <link href="http://floodsung.com/2017/06/29/learning-to-learn/"/>
-    <id>http://floodsung.com/2017/06/29/learning-to-learn/</id>
-    <published>2017-06-28T16:00:00.000Z</published>
-    <updated>2017-12-08T02:12:12.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1706.09529.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[Arxiv]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;We propose a novel and flexible approach to meta-learning for learning-to-learn from only a few examples. Our framework is motivated by actor-critic reinforcement learning, but can be applied to both reinforcement and supervised learning. The key idea is to learn a meta-critic: an action-value function neural network that learns to criticise any actor trying to solve any specified task. For supervised learning, this corresponds to the novel idea of a trainable task-parametrised loss generator. This meta-critic approach provides a route to knowledge transfer that can flexibly deal with few-shot and semi-supervised conditions for both reinforcement and supervised learning. Promising results are shown on both reinforcement and supervised learning problems.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
-    
-      <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
-    
-      <category term="Meta Learning" scheme="http://floodsung.com/tags/Meta-Learning/"/>
-    
-      <category term="Few Shot Learning" scheme="http://floodsung.com/tags/Few-Shot-Learning/"/>
     
   </entry>
   
