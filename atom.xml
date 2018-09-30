@@ -65,6 +65,30 @@
   </entry>
   
   <entry>
+    <title>Actor-Critic Sequence Training for Image Captioning</title>
+    <link href="http://floodsung.com/2017/06/29/image_caption/"/>
+    <id>http://floodsung.com/2017/06/29/image_caption/</id>
+    <published>2017-06-28T16:00:00.000Z</published>
+    <updated>2017-12-17T07:01:34.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Advances in Neural Information Processing Systems (NIPS), workshop on &lt;a href=&quot;https://nips2017vigil.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Visually-Grounded Interaction and Language&lt;/a&gt;, Long Beach, California, USA, December 2017. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1706.09601.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[Arxiv]&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/nips2017vigil/nips2017vigil.github.io/raw/master/papers/2017/actor_critic_sequence.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[Workshop PDF]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Generating natural language descriptions of images is an important ca- pability for a robot or other visual-intelligence driven AI agent that may need to communicate with human users about what it is seeing. Such image captioning methods are typically trained by maximising the likelihood of ground-truth anno- tated caption given the image. While simple and easy to implement, this approach does not directly maximise the language quality metrics we care about such as CIDEr. In this paper we investigate training image captioning methods based on actor-critic reinforcement learning in order to directly optimise non-differentiable quality metrics of interest. By formulating a per-token advantage and value com- putation strategy in this novel reinforcement learning based captioning model, we show that it is possible to achieve the state of the art performance on the widely used MSCOCO benchmark.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="NIPS workshop" scheme="http://floodsung.com/tags/NIPS-workshop/"/>
+    
+      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
+    
+      <category term="Image Captioning" scheme="http://floodsung.com/tags/Image-Captioning/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Learning to Learn: Meta-Critic Networks for Sample Efficient Learning</title>
     <link href="http://floodsung.com/2017/06/29/learning-to-learn/"/>
     <id>http://floodsung.com/2017/06/29/learning-to-learn/</id>
@@ -81,35 +105,11 @@
     
       <category term="Arxiv" scheme="http://floodsung.com/tags/Arxiv/"/>
     
+      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
+    
       <category term="Meta Learning" scheme="http://floodsung.com/tags/Meta-Learning/"/>
     
       <category term="Few Shot Learning" scheme="http://floodsung.com/tags/Few-Shot-Learning/"/>
-    
-      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Actor-Critic Sequence Training for Image Captioning</title>
-    <link href="http://floodsung.com/2017/06/29/image_caption/"/>
-    <id>http://floodsung.com/2017/06/29/image_caption/</id>
-    <published>2017-06-28T16:00:00.000Z</published>
-    <updated>2017-12-17T07:01:34.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Advances in Neural Information Processing Systems (NIPS), workshop on &lt;a href=&quot;https://nips2017vigil.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Visually-Grounded Interaction and Language&lt;/a&gt;, Long Beach, California, USA, December 2017. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1706.09601.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[Arxiv]&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/nips2017vigil/nips2017vigil.github.io/raw/master/papers/2017/actor_critic_sequence.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[Workshop PDF]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Generating natural language descriptions of images is an important ca- pability for a robot or other visual-intelligence driven AI agent that may need to communicate with human users about what it is seeing. Such image captioning methods are typically trained by maximising the likelihood of ground-truth anno- tated caption given the image. While simple and easy to implement, this approach does not directly maximise the language quality metrics we care about such as CIDEr. In this paper we investigate training image captioning methods based on actor-critic reinforcement learning in order to directly optimise non-differentiable quality metrics of interest. By formulating a per-token advantage and value com- putation strategy in this novel reinforcement learning based captioning model, we show that it is possible to achieve the state of the art performance on the widely used MSCOCO benchmark.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Reinforcement Learning" scheme="http://floodsung.com/tags/Reinforcement-Learning/"/>
-    
-      <category term="NIPS workshop" scheme="http://floodsung.com/tags/NIPS-workshop/"/>
-    
-      <category term="Image Captioning" scheme="http://floodsung.com/tags/Image-Captioning/"/>
     
   </entry>
   
